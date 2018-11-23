@@ -60,13 +60,9 @@ When you save a file inside **SRC** folder gulp will recognize changes and rebui
 ## Inluded Plugins
 
 | Plugin | Description |
-
 | ------ | ------ |
-
 | ACF PRO | [Fields manager](https://www.advancedcustomfields.com/resources/)|
-
 | Contacf form 7 | [Form bulder](https://wordpress.org/support/plugin/contact-form-7)|
-
 | Duplicator | [Backup and migration](https://snapcreek.com/support/)|
 
   
