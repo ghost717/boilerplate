@@ -1,0 +1,141 @@
+:focus,
+:active {
+	outline: none;
+}
+
+*,
+::after,
+::before {
+	margin: 0;
+	padding: 0;
+	font: inherit;
+	box-sizing: border-box;
+	border: 0
+}
+
+article,
+main,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+	display: block
+}
+
+img {
+	max-width: 100%;
+}
+
+main {
+	overflow: hidden;
+}
+
+html {
+	margin-top: 0 !important;
+}
+
+ol,
+ul {
+	list-style: none
+}
+
+blockquote,
+q {
+	quotes: none
+}
+
+blockquote:after,
+blockquote:before,
+q:after,
+q:before {
+	content: '';
+	content: none
+}
+
+table {
+	border-collapse: collapse;
+	border-spacing: 0
+}
+
+button {
+	background: transparent;
+}
+
+textarea,
+select,
+input[type="checkbox"],
+input[type="radio"],
+input[type="email"],
+input[type="number"],
+input[type="password"],
+input[type="text"],
+	{
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	appearance: none;
+	color: inherit;
+	cursor: pointer;
+	font: inherit;
+	padding: 0;
+	margin: 0;
+}
+
+a {
+	text-decoration: none;
+	color: inherit;
+}
+
+/* default wp img styles */
+#wpadminbar {
+	opacity: 0.3;
+}
+
+#wpadminbar:hover {
+	opacity: 1;
+}
+
+.alignnone {
+	margin: 5px 20px 20px 0;
+}
+
+.aligncenter,
+div.aligncenter {
+	display: block;
+	margin: 5px auto 5px auto;
+}
+
+.alignright {
+	float: right;
+	margin: 5px 0 20px 20px;
+}
+
+.alignleft {
+	float: left;
+	margin: 5px 20px 20px 0;
+}
+
+a img.alignright {
+	float: right;
+	margin: 5px 0 20px 20px;
+}
+
+a img.alignnone {
+	margin: 5px 20px 20px 0;
+}
+
+a img.alignleft {
+	float: left;
+	margin: 5px 20px 20px 0;
+}
+
+a img.aligncenter {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}

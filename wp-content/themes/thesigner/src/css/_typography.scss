@@ -1,0 +1,20 @@
+html {
+	font-size: 1rem;
+}
+
+body {
+	color: $primary;
+}
+
+
+.text {
+	p {
+		padding-bottom: 30px;
+	}
+}
+
+a,
+button,
+input {
+	transition: $transition;
+}

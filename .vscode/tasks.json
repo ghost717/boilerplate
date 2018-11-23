@@ -1,0 +1,30 @@
+{
+	// See https://go.microsoft.com/fwlink/?LinkId=733558
+	// for the documentation about the tasks.json format
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"label": "List Tasks",
+			"type": "shell",
+			"command": "tb --list"
+		},
+		{
+			"label": "Gulp",
+			"type": "shell",
+			"command": "cd wp-content/themes/website_style/ && gulp",
+			"group": {
+				"kind": "build",
+				"isDefault": true
+			}
+		},
+		{
+			"label": "Livereload",
+			"type": "shell",
+			"command": "livereload",
+			"presentation": {
+				"reveal": "always",
+				"panel": "new"
+			}
+		}
+	]
+}

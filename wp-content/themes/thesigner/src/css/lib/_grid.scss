@@ -1,0 +1,41 @@
+.grid {
+	margin: 0 auto;
+
+	@include media(0, 'min') {
+		width: 90%;
+	}
+
+	@include media($tablet, 'min') {
+		width: 720px
+	}
+
+	@include media($tablet, 'min') {
+		width: 720px
+	}
+
+	@include media($laptop, 'min') {
+		width: 1170px
+	}
+
+	@include media($desktop, 'min') {
+		width: 1270px;
+	}
+}
+
+.flex {
+	display: flex;
+	flex: 1 1 auto;
+	flex-wrap: wrap;
+
+	&--nowrap {
+		flex-wrap: nowrap;
+	}
+
+	&--space {
+		justify-content: space-between;
+	}
+
+	&--end {
+		justify-content: flex-end;
+	}
+}

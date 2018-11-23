@@ -1,0 +1,20 @@
+$primary: black;
+$secondary: red;
+$transition: all .5s cubic-bezier(.87, -.41, .19, 1);
+
+/* Breakpoints */
+$phone: 480;
+$tablet: 768;
+$laptop: 1200;
+$desktop: 1600;
+
+/* Mobile nav breakpoint */
+$mobile: 9931px;
+
+/* Libraries */
+@import 'lib/reset';
+@import 'lib/helpers';
+@import 'lib/grid';
+@import 'lib/owl';
+// @import 'lib/sel';
+// @import 'lib/fancybox';
