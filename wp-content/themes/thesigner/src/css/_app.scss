@@ -3,13 +3,13 @@ $secondary: red;
 $transition: all .5s cubic-bezier(.87, -.41, .19, 1);
 
 /* Breakpoints */
-$phone: 480;
-$tablet: 768;
-$laptop: 1200;
-$desktop: 1600;
+$phone: 480px;
+$tablet: 768px;
+$laptop: 1200px;
+$desktop: 1600px;
 
 /* Mobile nav breakpoint */
-$mobile: 9931px;
+$mobile: 991px;
 
 /* Libraries */
 @import 'lib/reset';

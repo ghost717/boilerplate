@@ -36,31 +36,10 @@ main {
 	overflow: hidden;
 }
 
-html {
-	margin-top: 0 !important;
-}
 
 ol,
 ul {
 	list-style: none
-}
-
-blockquote,
-q {
-	quotes: none
-}
-
-blockquote:after,
-blockquote:before,
-q:after,
-q:before {
-	content: '';
-	content: none
-}
-
-table {
-	border-collapse: collapse;
-	border-spacing: 0
 }
 
 button {
@@ -86,12 +65,21 @@ input[type="text"],
 	margin: 0;
 }
 
+strong {
+	font-weight: bold;
+}
+
 a {
 	text-decoration: none;
 	color: inherit;
 }
 
-/* default wp img styles */
+/* wp */
+
+html {
+	margin-top: 0 !important;
+}
+
 #wpadminbar {
 	opacity: 0.3;
 }
