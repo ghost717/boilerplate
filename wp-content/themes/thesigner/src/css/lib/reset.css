@@ -46,23 +46,21 @@ button {
 	background: transparent;
 }
 
+li:empty,
+p:empty {
+	display: none;
+}
+
 textarea,
 select,
-input[type="checkbox"],
-input[type="radio"],
-input[type="email"],
-input[type="number"],
-input[type="password"],
-input[type="text"],
-	{
+input,
+button {
 	-webkit-appearance: none;
 	-moz-appearance: none;
 	appearance: none;
 	color: inherit;
 	cursor: pointer;
-	font: inherit;
-	padding: 0;
-	margin: 0;
+	background: transparent;
 }
 
 strong {
