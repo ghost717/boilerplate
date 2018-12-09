@@ -1,7 +1,7 @@
 <?php
 /**
  *
- * @package thesigner
+ * @package ths
  */
 
 /**
