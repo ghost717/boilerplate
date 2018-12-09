@@ -12,7 +12,7 @@ git clone https://github.com/thesign3r/boilerplate.git newProjectName
 
 cd newProjectName
 
-php index.php (only works on windows machines for now)
+php installer.php (only works on windows machines for now)
 
   
 
