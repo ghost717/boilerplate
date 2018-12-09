@@ -1,41 +1,24 @@
 .grid {
 	margin: 0 auto;
 
-	@include media(0, 'min') {
-		width: 90%;
+	@media screen and (max-width: $tablet) {
+		width: calc(100% - 40px);
 	}
 
-	@include media($tablet, 'min') {
-		width: 720px
+	@media screen and (min-width: $tablet) and (max-width: $laptop) {
+		max-width: 920px;
 	}
 
-	@include media($tablet, 'min') {
-		width: 720px
-	}
 
-	@include media($laptop, 'min') {
-		width: 1170px
-	}
-
-	@include media($desktop, 'min') {
-		width: 1270px;
+	@include media($laptop, min) {
+		max-width: 1270px;
 	}
 }
 
-.flex {
+
+// Beta
+.row {
 	display: flex;
-	flex: 1 1 auto;
 	flex-wrap: wrap;
-
-	&--nowrap {
-		flex-wrap: nowrap;
-	}
-
-	&--space {
-		justify-content: space-between;
-	}
-
-	&--end {
-		justify-content: flex-end;
-	}
+	align-items: stretch;
 }
