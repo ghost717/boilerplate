@@ -17,18 +17,22 @@
 	}
 }
 
-@mixin media($breakpoint, $type: max) {
+
+@mixin media($breakpoint, $type: min) {
 	@media screen and (#{$type}-width: #{$breakpoint}) {
 		@content;
 	}
 }
 
-@mixin bg($file, $size: false) {
+@mixin bg($file, $size: false, $pos: false) {
 	background-image: url('../../dist/img/#{$file}');
 
 	@if $size {
 		background-size: $size;
-		background-position: 50%;
+	}
+
+	@if $pos {
+		background-position: $pos;
 	}
 }
 
@@ -46,8 +50,8 @@
 }
 
 @mixin col($items, $margin) {
-	width: calc(100% / #{$items} - #{$margin}px * 2);
-	margin: 0 #{$margin}px calc(#{$margin} *2px) #{$margin}px;
+	width: calc(100% / #{$items} - #{$margin}px);
+	margin: 0 #{$margin / 2}px #{$margin}px;
 
 	@include media($tablet, 'max') {
 		width: 100%;
@@ -56,6 +60,7 @@
 }
 
 @mixin fw($after: false) {
+
 	position: absolute;
 	top: 0;
 	left: 0;
