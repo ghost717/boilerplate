@@ -1,12 +1,14 @@
 <?php
 /**
  * Template Name: Home
- * @package webs
+ * @package ths
  */
 
 get_header(); ?>
-<div class="grid flex flex--nowrap flex--space flex--end">
-	Hello
+<div class="grid">
+	<div class="row">
+		Home Template
+	</div>
 </div>
 <?php
 get_footer();
